@@ -15,6 +15,6 @@
     "license": "MIT",
     "require": {
         "simplesamlphp/composer-module-installer": "~1.0",
-        "firebase/php-jwt": "^4.0"
+        "firebase/php-jwt": "^6.4"
     }
 }
