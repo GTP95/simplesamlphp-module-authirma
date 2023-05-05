@@ -47,7 +47,7 @@ Install the IRMA authentication module
 
 Copy sample configuration files
 
-	cp config-templates/config.php config-templates/authsources.php config 
+	cp config/config.php.dist config/authsources.php.dist config 
 
 Edit `config/config.php` to change the following:
 
