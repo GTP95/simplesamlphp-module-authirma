@@ -15,7 +15,7 @@ function get_jwt_key($source) {
 	$filename = \SimpleSAML\Utils\Config::getCertPath($source->jwt_privatekeyfile);
 	$pk = openssl_pkey_get_private("file://$filename");
 	if ($pk === false)
-		throw new Exception("Failed to load signing key");
+		throw new Exception("Failed to load signing key, I was trying to open file://$filename");
 	return $pk;
 }
 
